@@ -52,10 +52,3 @@ function delBook(index) {
   myLibrary.splice(index, 1);
   render();
 }
-
-// del.forEach((btn) => {
-//   btn.addEventListener("click", (e) => {
-//     const index = e.target.index;
-//     delBook(index);
-//   });
-// });
