@@ -7,16 +7,17 @@
     <title>Library</title>
   </head>
   <body>
+    <div id="con"></div>
     <form id="form">
       <input type="text" name="title" id="title" placeholder="Title..." />
       <input type="text" name="author" id="author" placeholder="Author..." />
       <input type="number" name="page" id="page" placeholder="Pages..." />
-      <select name="read" id="isRead">
-        <option value="Not Selected">Not Selected</option>
+      <select name="isRead" id="isRead">
+        <option value="Not Read">Not Read</option>
         <option value="Read">Read</option>
-        <option value="Reading">Pending</option>
+        <option value="Reading">Reading</option>
       </select>
-      <input type="submit" value="Add Book" />
+      <button>Add Book</button>
     </form>
 
     <script src="./main.js"></script>
