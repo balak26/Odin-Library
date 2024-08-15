@@ -7,8 +7,18 @@
     <title>Library</title>
   </head>
   <body>
-    <div id="con"></div>
+    <div id="con">
+      <h3>My Library</h3>
+      <button class="addBook">Add Book</button>
+    </div>
+
+    <table>
+      <tr id="heading"></tr>
+      <tbody id="body"></tbody>
+    </table>
+    <div></div>
     <form id="form">
+      <h4>Book Details <span class="addBook">X</span></h4>
       <input type="text" name="title" id="title" placeholder="Title..." />
       <input type="text" name="author" id="author" placeholder="Author..." />
       <input type="number" name="page" id="page" placeholder="Pages..." />
@@ -17,7 +27,7 @@
         <option value="Read">Read</option>
         <option value="Reading">Reading</option>
       </select>
-      <button>Add Book</button>
+      <button type="submit">Add Book</button>
     </form>
 
     <script src="./main.js"></script>
